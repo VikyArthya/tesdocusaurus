@@ -48,21 +48,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -76,9 +62,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Sample App',
+        title: 'My Site',
         logo: {
-          alt: 'Aplikasi Viky',
+          alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -88,13 +74,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {to: '/coba', label: 'coba', position: 'left'}
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {
@@ -123,19 +102,6 @@ const config = {
               {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
