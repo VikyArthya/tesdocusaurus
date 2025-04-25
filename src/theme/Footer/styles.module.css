@@ -1,0 +1,6 @@
+.footerCustom {
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
