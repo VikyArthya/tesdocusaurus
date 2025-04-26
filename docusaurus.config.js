@@ -107,12 +107,12 @@ const config = {
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: 'JEAT86YJCQ',
+        appId: 'QYNU3ZUQFX',
   
         // Public API key: it is safe to commit it
-        apiKey: '410104739da36b85dd6c015623b19efa',
+        apiKey: '557a38bbad30c22fa25246821f5d33c9',
   
-        indexName: 'docusaurus',
+        indexName: 'usaurustes',
   
         // Optional: see doc section below
         contextualSearch: true,
